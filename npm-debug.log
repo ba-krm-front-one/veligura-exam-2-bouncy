@@ -1,0 +1,163 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'cferdinandi/smooth-scroll',
+1 verbose cli   '--save' ]
+2 info using npm@4.1.2
+3 info using node@v7.7.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData cferdinandi/smooth-scroll
+8 silly fetchOtherPackageData cferdinandi/smooth-scroll
+9 silly cache add args [ 'cferdinandi/smooth-scroll', null ]
+10 verbose cache add spec cferdinandi/smooth-scroll
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'cferdinandi/smooth-scroll',
+11 silly cache add   scope: null,
+11 silly cache add   escapedName: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'cferdinandi/smooth-scroll',
+11 silly cache add   spec: 'github:cferdinandi/smooth-scroll',
+11 silly cache add   type: 'hosted',
+11 silly cache add   hosted:
+11 silly cache add    { type: 'github',
+11 silly cache add      ssh: 'git@github.com:cferdinandi/smooth-scroll.git',
+11 silly cache add      sshUrl: 'git+ssh://git@github.com/cferdinandi/smooth-scroll.git',
+11 silly cache add      httpsUrl: 'git+https://github.com/cferdinandi/smooth-scroll.git',
+11 silly cache add      gitUrl: 'git://github.com/cferdinandi/smooth-scroll.git',
+11 silly cache add      shortcut: 'github:cferdinandi/smooth-scroll',
+11 silly cache add      directUrl: 'https://raw.githubusercontent.com/cferdinandi/smooth-scroll/master/package.json' } }
+12 verbose addRemoteGit caching cferdinandi/smooth-scroll
+13 verbose addRemoteGit cferdinandi/smooth-scroll is a repository hosted by github
+14 silly tryGitProto attempting to clone git://github.com/cferdinandi/smooth-scroll.git
+15 silly tryClone cloning cferdinandi/smooth-scroll via git://github.com/cferdinandi/smooth-scroll.git
+16 verbose tryClone git-github-com-cferdinandi-smooth-scroll-git-1abe16f5 not in flight; caching
+17 verbose correctMkdir C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+18 verbose makeDirectory C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes creation not in flight; initializing
+19 verbose makeCacheDir UID & GID are irrelevant on win32
+20 info git [ 'clone',
+20 info git   '--template=C:\\Users\\Мишка\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+20 info git   '--mirror',
+20 info git   'git://github.com/cferdinandi/smooth-scroll.git',
+20 info git   'C:\\Users\\Мишка\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-cferdinandi-smooth-scroll-git-1abe16f5' ]
+21 verbose mirrorRemote cferdinandi/smooth-scroll git clone git://github.com/cferdinandi/smooth-scroll.git
+22 verbose setPermissions cferdinandi/smooth-scroll skipping chownr on Windows
+23 verbose resolveHead cferdinandi/smooth-scroll original treeish: master
+24 info git [ 'rev-list', '-n1', 'master' ]
+25 silly resolveHead cferdinandi/smooth-scroll resolved treeish: a541227605cc46f05c87748cda68397aa961a8eb
+26 verbose resolveHead cferdinandi/smooth-scroll resolved Git URL: git://github.com/cferdinandi/smooth-scroll.git#a541227605cc46f05c87748cda68397aa961a8eb
+27 silly resolveHead Git working directory: C:\Users\ABD6~1\AppData\Local\Temp\npm-5892-dec484bc\git-cache-5fa7117a\a541227605cc46f05c87748cda68397aa961a8eb
+28 info git [ 'clone',
+28 info git   'C:\\Users\\Мишка\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-cferdinandi-smooth-scroll-git-1abe16f5',
+28 info git   'C:\\Users\\ABD6~1\\AppData\\Local\\Temp\\npm-5892-dec484bc\\git-cache-5fa7117a\\a541227605cc46f05c87748cda68397aa961a8eb' ]
+29 error git clone C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-github-com-cferdinandi-smooth-scroll-git-1abe16f5 C:\Users\ABD6~1\AppData\Local\Temp\npm-5892-dec484bc\git-cache-5fa7117a\a541227605cc46f05c87748cda68397aa961a8eb: Cloning into 'C:\Users\ABD6~1\AppData\Local\Temp\npm-5892-dec484bc\git-cache-5fa7117a\a541227605cc46f05c87748cda68397aa961a8eb'...
+29 error git clone C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-github-com-cferdinandi-smooth-scroll-git-1abe16f5 C:\Users\ABD6~1\AppData\Local\Temp\npm-5892-dec484bc\git-cache-5fa7117a\a541227605cc46f05c87748cda68397aa961a8eb: "git-upload-pack 'C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-github-com-cferdinandi-smooth-scroll-git-1abe16f5'": git-upload-pack 'C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-github-com-cferdinandi-smooth-scroll-git-1abe16f5': No such file or directory
+29 error git clone C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-github-com-cferdinandi-smooth-scroll-git-1abe16f5 C:\Users\ABD6~1\AppData\Local\Temp\npm-5892-dec484bc\git-cache-5fa7117a\a541227605cc46f05c87748cda68397aa961a8eb: fatal: Could not read from remote repository.
+29 error git clone C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-github-com-cferdinandi-smooth-scroll-git-1abe16f5 C:\Users\ABD6~1\AppData\Local\Temp\npm-5892-dec484bc\git-cache-5fa7117a\a541227605cc46f05c87748cda68397aa961a8eb:
+29 error git clone C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-github-com-cferdinandi-smooth-scroll-git-1abe16f5 C:\Users\ABD6~1\AppData\Local\Temp\npm-5892-dec484bc\git-cache-5fa7117a\a541227605cc46f05c87748cda68397aa961a8eb: Please make sure you have the correct access rights
+29 error git clone C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-github-com-cferdinandi-smooth-scroll-git-1abe16f5 C:\Users\ABD6~1\AppData\Local\Temp\npm-5892-dec484bc\git-cache-5fa7117a\a541227605cc46f05c87748cda68397aa961a8eb: and the repository exists.
+30 silly tryHTTPS attempting to clone git+https://github.com/cferdinandi/smooth-scroll.git
+31 silly tryClone cloning cferdinandi/smooth-scroll via git+https://github.com/cferdinandi/smooth-scroll.git
+32 verbose tryClone git-https-github-com-cferdinandi-smooth-scroll-git-37604623 not in flight; caching
+33 verbose correctMkdir C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+34 info git [ 'clone',
+34 info git   '--template=C:\\Users\\Мишка\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+34 info git   '--mirror',
+34 info git   'https://github.com/cferdinandi/smooth-scroll.git',
+34 info git   'C:\\Users\\Мишка\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-https-github-com-cferdinandi-smooth-scroll-git-37604623' ]
+35 verbose mirrorRemote cferdinandi/smooth-scroll git clone https://github.com/cferdinandi/smooth-scroll.git
+36 verbose setPermissions cferdinandi/smooth-scroll skipping chownr on Windows
+37 verbose resolveHead cferdinandi/smooth-scroll original treeish: master
+38 info git [ 'rev-list', '-n1', 'master' ]
+39 silly resolveHead cferdinandi/smooth-scroll resolved treeish: a541227605cc46f05c87748cda68397aa961a8eb
+40 verbose resolveHead cferdinandi/smooth-scroll resolved Git URL: git+https://github.com/cferdinandi/smooth-scroll.git#a541227605cc46f05c87748cda68397aa961a8eb
+41 silly resolveHead Git working directory: C:\Users\ABD6~1\AppData\Local\Temp\npm-5892-dec484bc\git-cache-22c37f5b\a541227605cc46f05c87748cda68397aa961a8eb
+42 info git [ 'clone',
+42 info git   'C:\\Users\\Мишка\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-https-github-com-cferdinandi-smooth-scroll-git-37604623',
+42 info git   'C:\\Users\\ABD6~1\\AppData\\Local\\Temp\\npm-5892-dec484bc\\git-cache-22c37f5b\\a541227605cc46f05c87748cda68397aa961a8eb' ]
+43 error git clone C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-cferdinandi-smooth-scroll-git-37604623 C:\Users\ABD6~1\AppData\Local\Temp\npm-5892-dec484bc\git-cache-22c37f5b\a541227605cc46f05c87748cda68397aa961a8eb: Cloning into 'C:\Users\ABD6~1\AppData\Local\Temp\npm-5892-dec484bc\git-cache-22c37f5b\a541227605cc46f05c87748cda68397aa961a8eb'...
+43 error git clone C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-cferdinandi-smooth-scroll-git-37604623 C:\Users\ABD6~1\AppData\Local\Temp\npm-5892-dec484bc\git-cache-22c37f5b\a541227605cc46f05c87748cda68397aa961a8eb: "git-upload-pack 'C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-cferdinandi-smooth-scroll-git-37604623'": git-upload-pack 'C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-cferdinandi-smooth-scroll-git-37604623': No such file or directory
+43 error git clone C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-cferdinandi-smooth-scroll-git-37604623 C:\Users\ABD6~1\AppData\Local\Temp\npm-5892-dec484bc\git-cache-22c37f5b\a541227605cc46f05c87748cda68397aa961a8eb: fatal: Could not read from remote repository.
+43 error git clone C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-cferdinandi-smooth-scroll-git-37604623 C:\Users\ABD6~1\AppData\Local\Temp\npm-5892-dec484bc\git-cache-22c37f5b\a541227605cc46f05c87748cda68397aa961a8eb:
+43 error git clone C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-cferdinandi-smooth-scroll-git-37604623 C:\Users\ABD6~1\AppData\Local\Temp\npm-5892-dec484bc\git-cache-22c37f5b\a541227605cc46f05c87748cda68397aa961a8eb: Please make sure you have the correct access rights
+43 error git clone C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-cferdinandi-smooth-scroll-git-37604623 C:\Users\ABD6~1\AppData\Local\Temp\npm-5892-dec484bc\git-cache-22c37f5b\a541227605cc46f05c87748cda68397aa961a8eb: and the repository exists.
+44 silly trySSH attempting to clone git@github.com:cferdinandi/smooth-scroll.git
+45 silly tryClone cloning cferdinandi/smooth-scroll via git@github.com:cferdinandi/smooth-scroll.git
+46 verbose tryClone git-github-com-cferdinandi-smooth-scroll-git-846f4e7c not in flight; caching
+47 verbose correctMkdir C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+48 info git [ 'clone',
+48 info git   '--template=C:\\Users\\Мишка\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+48 info git   '--mirror',
+48 info git   'git@github.com:cferdinandi/smooth-scroll.git',
+48 info git   'C:\\Users\\Мишка\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-cferdinandi-smooth-scroll-git-846f4e7c' ]
+49 error git clone --template=C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:cferdinandi/smooth-scroll.git C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-github-com-cferdinandi-smooth-scroll-git-846f4e7c: Cloning into bare repository 'C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-github-com-cferdinandi-smooth-scroll-git-846f4e7c'...
+49 error git clone --template=C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:cferdinandi/smooth-scroll.git C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-github-com-cferdinandi-smooth-scroll-git-846f4e7c: Host key verification failed.
+49 error git clone --template=C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:cferdinandi/smooth-scroll.git C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-github-com-cferdinandi-smooth-scroll-git-846f4e7c: fatal: Could not read from remote repository.
+49 error git clone --template=C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:cferdinandi/smooth-scroll.git C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-github-com-cferdinandi-smooth-scroll-git-846f4e7c:
+49 error git clone --template=C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:cferdinandi/smooth-scroll.git C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-github-com-cferdinandi-smooth-scroll-git-846f4e7c: Please make sure you have the correct access rights
+49 error git clone --template=C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:cferdinandi/smooth-scroll.git C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-github-com-cferdinandi-smooth-scroll-git-846f4e7c: and the repository exists.
+50 silly fetchPackageMetaData Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:cferdinandi/smooth-scroll.git C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-github-com-cferdinandi-smooth-scroll-git-846f4e7c
+50 silly fetchPackageMetaData Cloning into bare repository 'C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-github-com-cferdinandi-smooth-scroll-git-846f4e7c'...
+50 silly fetchPackageMetaData Host key verification failed.
+50 silly fetchPackageMetaData fatal: Could not read from remote repository.
+50 silly fetchPackageMetaData
+50 silly fetchPackageMetaData Please make sure you have the correct access rights
+50 silly fetchPackageMetaData and the repository exists.
+50 silly fetchPackageMetaData
+50 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:210:12)
+50 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+50 silly fetchPackageMetaData     at ChildProcess.emit (events.js:194:7)
+50 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:899:16)
+50 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+50 silly fetchPackageMetaData  error for cferdinandi/smooth-scroll { Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:cferdinandi/smooth-scroll.git C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-github-com-cferdinandi-smooth-scroll-git-846f4e7c
+50 silly fetchPackageMetaData Cloning into bare repository 'C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-github-com-cferdinandi-smooth-scroll-git-846f4e7c'...
+50 silly fetchPackageMetaData Host key verification failed.
+50 silly fetchPackageMetaData fatal: Could not read from remote repository.
+50 silly fetchPackageMetaData
+50 silly fetchPackageMetaData Please make sure you have the correct access rights
+50 silly fetchPackageMetaData and the repository exists.
+50 silly fetchPackageMetaData
+50 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:210:12)
+50 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+50 silly fetchPackageMetaData     at ChildProcess.emit (events.js:194:7)
+50 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:899:16)
+50 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+50 silly fetchPackageMetaData   killed: false,
+50 silly fetchPackageMetaData   code: 128,
+50 silly fetchPackageMetaData   signal: null,
+50 silly fetchPackageMetaData   cmd: 'git -c core.longpaths=true clone --template=C:\\Users\\Мишка\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates --mirror git@github.com:cferdinandi/smooth-scroll.git C:\\Users\\Мишка\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-cferdinandi-smooth-scroll-git-846f4e7c' }
+51 silly rollbackFailedOptional Starting
+52 silly rollbackFailedOptional Finishing
+53 silly runTopLevelLifecycles Finishing
+54 silly install printInstalled
+55 verbose stack Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:cferdinandi/smooth-scroll.git C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-github-com-cferdinandi-smooth-scroll-git-846f4e7c
+55 verbose stack Cloning into bare repository 'C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-github-com-cferdinandi-smooth-scroll-git-846f4e7c'...
+55 verbose stack Host key verification failed.
+55 verbose stack fatal: Could not read from remote repository.
+55 verbose stack
+55 verbose stack Please make sure you have the correct access rights
+55 verbose stack and the repository exists.
+55 verbose stack
+55 verbose stack     at ChildProcess.exithandler (child_process.js:210:12)
+55 verbose stack     at emitTwo (events.js:106:13)
+55 verbose stack     at ChildProcess.emit (events.js:194:7)
+55 verbose stack     at maybeClose (internal/child_process.js:899:16)
+55 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+56 verbose cwd C:\Users\Мишка\projects\Exam-2-bouncy
+57 error Windows_NT 6.3.9600
+58 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "cferdinandi/smooth-scroll" "--save"
+59 error node v7.7.1
+60 error npm  v4.1.2
+61 error code 128
+62 error Command failed: git -c core.longpaths=true clone --template=C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:cferdinandi/smooth-scroll.git C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-github-com-cferdinandi-smooth-scroll-git-846f4e7c
+62 error Cloning into bare repository 'C:\Users\Мишка\AppData\Roaming\npm-cache\_git-remotes\git-github-com-cferdinandi-smooth-scroll-git-846f4e7c'...
+62 error Host key verification failed.
+62 error fatal: Could not read from remote repository.
+62 error
+62 error Please make sure you have the correct access rights
+62 error and the repository exists.
+63 error If you need help, you may report this error at:
+63 error     <https://github.com/npm/npm/issues>
+64 verbose exit [ 1, true ]
